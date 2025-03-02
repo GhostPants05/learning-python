@@ -1,0 +1,15 @@
+import turtle
+
+turtle.forward(100)
+turtle.left(120)
+turtle.forward(100)
+
+turtle.color('blue')
+
+turtle.penup()
+turtle.onkeypress("w")
+def move_turtle():
+    y = move_turtle.ycor()
+    y += 40
+    move_turtle.sety(y)
+    

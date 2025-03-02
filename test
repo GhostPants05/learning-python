@@ -1,0 +1,15 @@
+temperature = int(input())
+
+# Modify the nested if-else code blocks to follow standard indentation
+if temperature > 68.2:
+    if temperature > 94.2:
+        category = 'Hot'
+    else:
+        category = 'Warm'
+else:
+    if temperature > 47.4:
+        category = 'Cool'
+    else:
+        category = 'Cold'
+
+print(f'Your category is: {category}')
